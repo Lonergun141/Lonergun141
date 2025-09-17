@@ -1,9 +1,15 @@
-<h1 align="center">Sup! Clyde H. Gevero</h1>
+<h1 align="center">Hi! I'm Clyde H. Gevero</h1>
 <h3 align="center">A UI/UX and Web/Mobile Frontend Developer from the Philippines</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lonergun141&label=Profile%20views&color=0e75b6&style=flat" alt="lonergun141" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lonergun141" alt="lonergun141" /></a> </p>
+
+- 🌱 I’m currently learning **Backend Frameworks**
+
+- 👨‍💻 All of my projects are available at [https://clyde-portfolio-beige.vercel.app/](https://clyde-portfolio-beige.vercel.app/)
+
+- 📫 How to reach me **clydegevero14@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
