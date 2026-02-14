@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Backend Frameworks**
 
-- 👨‍💻 All of my projects are available at [https://clyde-portfolio-beige.vercel.app/](https://clyde-portfolio-beige.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://clydegevero.is-a.dev/](https://clydegevero.is-a.dev/)
 
 - 📫 How to reach me **clydegevero14@gmail.com**
 
