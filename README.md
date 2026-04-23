@@ -1,81 +1,167 @@
+<div align="center">
+
 # Clyde H. Gevero
 
-**Fullstack Developer • UI/UX Designer • Systems Design**
+### Fullstack Developer • UI/UX Designer • Systems Thinker
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-clydegevero.is--a.dev-0ea5e9?style=for-the-badge)](https://clydegevero.is-a.dev/)
-[![Email](https://img.shields.io/badge/Email-clydegevero14%40gmail.com-ea580c?style=for-the-badge)](mailto:clydegevero14@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-clydegevero-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/clydegevero)
+*Designing clean interfaces, scalable systems, and developer-friendly workflows.*
 
-## About me
-I build web + mobile products end-to-end—clean UI, solid APIs, and maintainable systems. I enjoy modern architecture work (microservices / MFEs), workflow automation, and performance-focused refactors.
+<p>
+  <a href="https://clydegevero.is-a.dev/">
+    <img src="https://img.shields.io/badge/Portfolio-clydegevero.is--a.dev-1f2937?style=for-the-badge&logo=googlechrome&logoColor=ffffff" />
+  </a>
+  <a href="mailto:clydegevero14@gmail.com">
+    <img src="https://img.shields.io/badge/Email-clydegevero14%40gmail.com-374151?style=for-the-badge&logo=gmail&logoColor=ffffff" />
+  </a>
+  <a href="https://linkedin.com/in/clydegevero">
+    <img src="https://img.shields.io/badge/LinkedIn-clydegevero-334155?style=for-the-badge&logo=linkedin&logoColor=ffffff" />
+  </a>
+</p>
 
-## Tech Arsenal
+<p>
+  <img src="https://komarev.com/ghpvc/?username=lonergun141&label=Profile%20Views&color=3b4252&style=flat" />
+  <img src="https://img.shields.io/github/followers/lonergun141?label=Followers&style=flat&color=4b5563" />
+  <img src="https://img.shields.io/github/stars/lonergun141?affiliations=OWNER%2CCOLLABORATOR&style=flat&color=475569" />
+</p>
 
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript_(ES6+)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=fff)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
-![Google%20Apps%20Script](https://img.shields.io/badge/Google_Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=fff)
+</div>
+
+---
+
+## About Me
+
+I build end-to-end digital products — from intuitive interfaces to reliable backend systems.
+My work usually sits at the intersection of **product thinking**, **system design**, and **clean implementation**.
+
+* Building web and mobile applications with maintainable architecture
+* Designing polished UI/UX with a focus on usability and clarity
+* Improving workflows through automation and performance-focused refactors
+* Interested in microservices, MFEs, AI integrations, and scalable product systems
+
+---
+
+## Current Vibe
+
+```ts
+const clyde = {
+  role: ["Fullstack Developer", "UI/UX Designer"],
+  building: ["scalable apps", "clean APIs", "smooth user experiences"],
+  focusesOn: ["architecture", "automation", "performance", "design systems"],
+  funFact: "I enjoy turning messy processes into elegant developer workflows.",
+};
+```
+
+---
+
+## Toolbox
+
+### Core
+
+![JavaScript](https://img.shields.io/badge/JavaScript-1f2937?style=for-the-badge\&logo=javascript\&logoColor=f7df1e)
+![TypeScript](https://img.shields.io/badge/TypeScript-1f2937?style=for-the-badge\&logo=typescript\&logoColor=3178c6)
+![Python](https://img.shields.io/badge/Python-1f2937?style=for-the-badge\&logo=python\&logoColor=3776ab)
+![SQL](https://img.shields.io/badge/SQL-1f2937?style=for-the-badge\&logo=postgresql\&logoColor=336791)
+![HTML5](https://img.shields.io/badge/HTML5-1f2937?style=for-the-badge\&logo=html5\&logoColor=e34f26)
+![CSS3](https://img.shields.io/badge/CSS3-1f2937?style=for-the-badge\&logo=css3\&logoColor=1572b6)
 
 ### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=fff)
-![Tailwind%20CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=fff)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=fff)
+
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge\&logo=react\&logoColor=61dafb)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge\&logo=next.js\&logoColor=ffffff)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge\&logo=tailwindcss\&logoColor=06b6d4)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=for-the-badge\&logo=bootstrap\&logoColor=7952b3)
 
 ### Backend & APIs
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=fff)
-![Django%20REST%20Framework](https://img.shields.io/badge/Django_REST_Framework-092E20?style=for-the-badge&logo=django&logoColor=fff)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff)
-![REST%20API](https://img.shields.io/badge/REST_API-111827?style=for-the-badge)
 
-### State & Data Management
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=fff)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=fff)
-![TanStack%20Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=fff)
+![Django](https://img.shields.io/badge/Django-0f172a?style=for-the-badge\&logo=django\&logoColor=ffffff)
+![Django REST Framework](https://img.shields.io/badge/DRF-0f172a?style=for-the-badge\&logo=django\&logoColor=ffffff)
+![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge\&logo=node.js\&logoColor=339933)
+![REST API](https://img.shields.io/badge/REST_API-0f172a?style=for-the-badge)
 
-### Databases & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=fff)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=fff)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=000)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=fff)
-![Google%20Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=fff)
+### State & Data
 
-### Mobile
-![React%20Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Zustand](https://img.shields.io/badge/Zustand-1e293b?style=for-the-badge\&logo=react\&logoColor=ffffff)
+![Redux](https://img.shields.io/badge/Redux-1e293b?style=for-the-badge\&logo=redux\&logoColor=764abc)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-1e293b?style=for-the-badge\&logo=reactquery\&logoColor=ff4154)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e293b?style=for-the-badge\&logo=postgresql\&logoColor=316192)
+![MongoDB](https://img.shields.io/badge/MongoDB-1e293b?style=for-the-badge\&logo=mongodb\&logoColor=47a248)
+![Redis](https://img.shields.io/badge/Redis-1e293b?style=for-the-badge\&logo=redis\&logoColor=dc382d)
 
-### Architecture
-![Microservices](https://img.shields.io/badge/Microservices-111827?style=for-the-badge)
-![Micro--frontend](https://img.shields.io/badge/Micro--frontend_(MFE)-111827?style=for-the-badge)
-![White--labeling](https://img.shields.io/badge/Config--based_White--labeling-111827?style=for-the-badge)
+### Mobile, Cloud & Workflow
 
-### AI / ML
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=fff)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=fff)
-![Google%20Vision](https://img.shields.io/badge/Google_Vision-4285F4?style=for-the-badge&logo=googlecloud&logoColor=fff)
+![React Native](https://img.shields.io/badge/React_Native-111827?style=for-the-badge\&logo=react\&logoColor=61dafb)
+![Firebase](https://img.shields.io/badge/Firebase-111827?style=for-the-badge\&logo=firebase\&logoColor=ffca28)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge\&logo=docker\&logoColor=2496ed)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge\&logo=git\&logoColor=f05032)
+![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge\&logo=github\&logoColor=ffffff)
+![Postman](https://img.shields.io/badge/Postman-111827?style=for-the-badge\&logo=postman\&logoColor=ff6c37)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-111827?style=for-the-badge\&logo=google\&logoColor=ffffff)
 
-### DevOps & Workflow Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=fff)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=fff)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff)
-![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab&logoColor=fff)
-![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=fff)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=fff)
-![VS%20Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=fff)
-![OpenProject](https://img.shields.io/badge/OpenProject-0770B8?style=for-the-badge)
-![Agile%20(Scrum)](https://img.shields.io/badge/Agile_(Scrum)-111827?style=for-the-badge)
+### Design & Creative
 
-### Creatives
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=fff)
-![Adobe%20Premiere%20Pro](https://img.shields.io/badge/Adobe_Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=fff)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=fff)
-![OBS%20Studio](https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obsstudio&logoColor=fff)
+![Figma](https://img.shields.io/badge/Figma-0f172a?style=for-the-badge\&logo=figma\&logoColor=f24e1e)
+![Canva](https://img.shields.io/badge/Canva-0f172a?style=for-the-badge\&logo=canva\&logoColor=00c4cc)
+![Adobe Premiere Pro](https://img.shields.io/badge/Premiere_Pro-0f172a?style=for-the-badge\&logo=adobepremierepro\&logoColor=9999ff)
+![OBS Studio](https://img.shields.io/badge/OBS_Studio-0f172a?style=for-the-badge\&logo=obsstudio\&logoColor=ffffff)
 
-## GitHub
-<img src="https://github-readme-stats.vercel.app/api?username=lonergun141&show_icons=true&count_private=true&theme=react&hide_border=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lonergun141&layout=compact&theme=react&hide_border=true" height="160" />
+---
 
-![Profile Views](https://api.visitorbadge.io/api/visitors?path=lonergun141&label=Profile%20Views&countColor=%2358A6FF&style=flat&labelStyle=upper)
+## What I Like Building
+
+* Internal tools that make teams faster
+* Business systems with clean data flow
+* Modern dashboards and admin platforms
+* API-driven platforms with scalable architecture
+* Automation-heavy workflows that reduce repetitive work
+
+---
+
+## GitHub Snapshot
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lonergun141&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=github_dark" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lonergun141&layout=compact&hide_border=true&theme=github_dark" />
+</div>
+
+<div align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=lonergun141&theme=github-dark-blue&hide_border=true" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lonergun141&theme=github-dark&hide_border=true&area=true" width="100%" />
+</div>
+
+---
+
+## Fun Stuff
+
+* I enjoy balancing **engineering logic** with **design taste**
+* I like making complex systems feel simple for users
+* I treat refactoring like cleanup with purpose
+* I genuinely enjoy elegant architecture and beautiful UI in the same project
+
+> *"Good software should feel obvious to the user and intentional to the developer."*
+
+---
+
+## Let’s Connect
+
+<div align="center">
+  <a href="https://clydegevero.is-a.dev/">
+    <img src="https://img.shields.io/badge/Visit_Portfolio-1f2937?style=for-the-badge&logo=vercel&logoColor=ffffff" />
+  </a>
+  <a href="mailto:clydegevero14@gmail.com">
+    <img src="https://img.shields.io/badge/Send_Email-374151?style=for-the-badge&logo=gmail&logoColor=ffffff" />
+  </a>
+  <a href="https://linkedin.com/in/clydegevero">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-334155?style=for-the-badge&logo=linkedin&logoColor=ffffff" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+
+### Thanks for visiting 👨‍💻
+
+</div>
