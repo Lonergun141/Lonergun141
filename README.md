@@ -1,185 +1,196 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
+  <img src="./assets/hero-dark.svg" width="100%" alt="Clyde H. Gevero — fullstack developer and UI/UX designer, above a chart of contributions per week over the last 12 months" />
+</picture>
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=94A3B8&center=true&vCenter=true&width=650&height=60&lines=Hi%2C+I'm+Clyde+H.+Gevero+%F0%9F%91%8B;Fullstack+Developer;UI%2FUX+Designer;Systems+Thinker;Turning+messy+processes+into+elegant+workflows" alt="Typing SVG" />
-
-<p><i>Designing clean interfaces, scalable systems, and developer-friendly workflows.</i></p>
-
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/coding.gif" width="420" alt="coding" />
-
-<br/>
-
 <a href="https://clydegevero.is-a.dev/">
-  <img src="https://img.shields.io/badge/Portfolio-clydegevero.is--a.dev-1f2937?style=for-the-badge&logo=googlechrome&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=4C8DFF&labelColor=0D1117" alt="Portfolio" />
 </a>
 <a href="mailto:clydegevero14@gmail.com">
-  <img src="https://img.shields.io/badge/Email-clydegevero14%40gmail.com-374151?style=for-the-badge&logo=gmail&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Email" />
 </a>
 <a href="https://linkedin.com/in/clydegevero">
-  <img src="https://img.shields.io/badge/LinkedIn-clydegevero-334155?style=for-the-badge&logo=linkedin&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=4C8DFF&labelColor=0D1117" alt="LinkedIn" />
 </a>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=lonergun141&label=Profile%20Views&color=3b4252&style=flat" />
-<img src="https://img.shields.io/github/followers/lonergun141?label=Followers&style=flat&color=4b5563" />
-<img src="https://img.shields.io/github/stars/lonergun141?affiliations=OWNER%2CCOLLABORATOR&style=flat&color=475569" />
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%" alt="" />
 
 </div>
 
----
+## About
 
-## 🧩 About Me
+<table>
+<tr>
+<td width="56%" valign="top">
 
-I build end-to-end digital products — from intuitive interfaces to reliable backend systems.
-My work usually sits at the intersection of **product thinking**, **system design**, and **clean implementation**.
+<!-- Kept on one source line: inside a table cell GitHub turns newlines into breaks. -->
+I build web and mobile products end to end — the interface people use, the API behind it, and the data model underneath. I care about the same things in both halves: clear structure, honest naming, and code the next person can follow.
 
-- 🏗️ Building web and mobile applications with maintainable architecture
-- 🎨 Designing polished UI/UX with a focus on usability and clarity
-- ⚡ Improving workflows through automation and performance-focused refactors
-- 🔭 Interested in microservices, MFEs, AI integrations, and scalable product systems
+- Ship features across the stack, from schema to screen
+- Design interfaces that work before they decorate
+- Cut manual steps with automation and targeted refactors
+- Break monoliths into services that stay understandable
 
----
+</td>
+<td width="44%" valign="top">
 
-## 💻 Current Vibe
+<img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-996024c84606.gif" width="100%" alt="A cat typing on a laptop" />
+
+</td>
+</tr>
+</table>
 
 ```ts
 const clyde = {
-  role: ["Fullstack Developer", "UI/UX Designer"],
-  building: ["scalable apps", "clean APIs", "smooth user experiences"],
-  focusesOn: ["architecture", "automation", "performance", "design systems"],
-  funFact: "I enjoy turning messy processes into elegant developer workflows.",
+  role:     ["Fullstack developer", "UI/UX designer"],
+  builds:   ["Web and mobile apps", "REST APIs", "Design systems"],
+  worksOn:  ["Architecture", "Automation", "Performance"],
+  believes: "If the interface needs explaining, the system probably does too.",
 };
 ```
 
----
-
-## 🧰 Toolbox
-
-**Core**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-1f2937?style=for-the-badge&logo=javascript&logoColor=f7df1e)
-![TypeScript](https://img.shields.io/badge/TypeScript-1f2937?style=for-the-badge&logo=typescript&logoColor=3178c6)
-![Python](https://img.shields.io/badge/Python-1f2937?style=for-the-badge&logo=python&logoColor=3776ab)
-![SQL](https://img.shields.io/badge/SQL-1f2937?style=for-the-badge&logo=postgresql&logoColor=336791)
-![HTML5](https://img.shields.io/badge/HTML5-1f2937?style=for-the-badge&logo=html5&logoColor=e34f26)
-![CSS3](https://img.shields.io/badge/CSS3-1f2937?style=for-the-badge&logo=css3&logoColor=1572b6)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61dafb)
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=next.js&logoColor=ffffff)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=for-the-badge&logo=bootstrap&logoColor=7952b3)
-
-**Backend & APIs**
-
-![Django](https://img.shields.io/badge/Django-0f172a?style=for-the-badge&logo=django&logoColor=ffffff)
-![Django REST Framework](https://img.shields.io/badge/DRF-0f172a?style=for-the-badge&logo=django&logoColor=ffffff)
-![Node.js](https://img.shields.io/badge/Node.js-0f172a?style=for-the-badge&logo=node.js&logoColor=339933)
-![REST API](https://img.shields.io/badge/REST_API-0f172a?style=for-the-badge)
-
-**State & Data**
-
-![Zustand](https://img.shields.io/badge/Zustand-1e293b?style=for-the-badge&logo=react&logoColor=ffffff)
-![Redux](https://img.shields.io/badge/Redux-1e293b?style=for-the-badge&logo=redux&logoColor=764abc)
-![TanStack Query](https://img.shields.io/badge/TanStack_Query-1e293b?style=for-the-badge&logo=reactquery&logoColor=ff4154)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e293b?style=for-the-badge&logo=postgresql&logoColor=316192)
-![MongoDB](https://img.shields.io/badge/MongoDB-1e293b?style=for-the-badge&logo=mongodb&logoColor=47a248)
-![Redis](https://img.shields.io/badge/Redis-1e293b?style=for-the-badge&logo=redis&logoColor=dc382d)
-
-**Mobile, Cloud & Workflow**
-
-![React Native](https://img.shields.io/badge/React_Native-111827?style=for-the-badge&logo=react&logoColor=61dafb)
-![Firebase](https://img.shields.io/badge/Firebase-111827?style=for-the-badge&logo=firebase&logoColor=ffca28)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ed)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=f05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff)
-![Postman](https://img.shields.io/badge/Postman-111827?style=for-the-badge&logo=postman&logoColor=ff6c37)
-![Google Workspace](https://img.shields.io/badge/Google_Workspace-111827?style=for-the-badge&logo=google&logoColor=ffffff)
-
-**Design & Creative**
-
-![Figma](https://img.shields.io/badge/Figma-0f172a?style=for-the-badge&logo=figma&logoColor=f24e1e)
-![Canva](https://img.shields.io/badge/Canva-0f172a?style=for-the-badge&logo=canva&logoColor=00c4cc)
-![Adobe Premiere Pro](https://img.shields.io/badge/Premiere_Pro-0f172a?style=for-the-badge&logo=adobepremierepro&logoColor=9999ff)
-![OBS Studio](https://img.shields.io/badge/OBS_Studio-0f172a?style=for-the-badge&logo=obsstudio&logoColor=ffffff)
-
----
-
-## 🚀 What I Like Building
-
-<img align="right" src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Developer.gif" width="230" alt="developer" />
-
-- 🛠️ Internal tools that make teams faster
-- 📊 Business systems with clean data flow
-- 🖥️ Modern dashboards and admin platforms
-- 🔌 API-driven platforms with scalable architecture
-- 🤖 Automation-heavy workflows that reduce repetitive work
-
-<br clear="right"/>
-
----
-
-## 📈 GitHub Snapshot
+## Stack
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lonergun141&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=github_dark" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lonergun141&layout=compact&hide_border=true&theme=github_dark" />
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,html,css,postgres&theme=dark" alt="TypeScript, JavaScript, Python, HTML, CSS, SQL" />
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,redux&theme=dark" alt="React, Next.js, Tailwind, Bootstrap, Redux" />
+
+<img src="https://skillicons.dev/icons?i=django,nodejs,mongodb,redis,firebase&theme=dark" alt="Django, Node.js, MongoDB, Redis, Firebase" />
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman,figma&theme=dark" alt="Docker, Git, GitHub, Postman, Figma" />
+
 </div>
 
+<details>
+<summary>Also in the kit</summary>
+
+<br />
+
+![DRF](https://img.shields.io/badge/DRF-0D1117?style=for-the-badge&logo=django&logoColor=A30000&labelColor=0D1117)
+![Zustand](https://img.shields.io/badge/Zustand-0D1117?style=for-the-badge&logo=react&logoColor=764ABC&labelColor=0D1117)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-0D1117?style=for-the-badge&logo=reactquery&logoColor=FF4154&labelColor=0D1117)
+![React Native](https://img.shields.io/badge/React_Native-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0D1117)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-0D1117?style=for-the-badge&logo=google&logoColor=4285F4&labelColor=0D1117)
+![Canva](https://img.shields.io/badge/Canva-0D1117?style=for-the-badge&logo=canva&logoColor=00C4CC&labelColor=0D1117)
+![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-0D1117?style=for-the-badge&logo=adobepremierepro&logoColor=9999FF&labelColor=0D1117)
+![OBS Studio](https://img.shields.io/badge/OBS_Studio-0D1117?style=for-the-badge&logo=obsstudio&logoColor=FFFFFF&labelColor=0D1117)
+
+</details>
+
+## Activity
+
 <div align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=lonergun141&theme=github-dark-blue&hide_border=true" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-overview-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-overview-light.svg" />
+  <img src="./assets/activity-overview-dark.svg" width="100%" alt="Where the contributions went: 73% commits, 27% pull requests, and the five most active repositories" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
+  <img src="./assets/stats-dark.svg" alt="By the numbers: contributions, pull requests, streaks, and repository counts" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg" />
+  <img src="./assets/languages-dark.svg" alt="Most used languages by share of bytes of code" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake-dark.svg" width="100%" alt="A snake eating the contribution grid" />
+</picture>
+
+<sub>These cards are drawn from the GitHub API and rebuilt every day — <a href="./scripts/generate-cards.mjs">read the generator</a></sub>
+
 </div>
 
-<!-- 🔻 Activity breakdown (Commits / PRs / Issues / Code review) — powered by profile-summary-cards. -->
-<!-- Requires the profile-summary-cards workflow (see setup notes). Delete this block if you skip it. -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/lonergun141/lonergun141/main/profile-summary-card-output/github_dark/3-stats.svg" />
-  <img src="https://raw.githubusercontent.com/lonergun141/lonergun141/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
-</div>
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [QuickEase](https://github.com/Lonergun141/quickie)
+
+Turns a student's uploaded notes into summaries, flashcards and quizzes. Runs on GPT-4o, Google Vision and ConvertAPI.
+
+`TypeScript` · `React Native` · `Django`
+
+</td>
+<td width="50%" valign="top">
+
+### [Kinaadman](https://github.com/Lonergun141/Kinaadman-be)
+
+Gives universities one place to archive and publish thesis and capstone research, with each school kept separate.
+
+`Python` · `Django` · `PostgreSQL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [SusiAuth](https://github.com/Lonergun141/SusiAuth)
+
+Drop-in Django auth for microservices: RS256 JWT, refresh token rotation, email verification, password reset.
+
+`Python` · `DRF` · `JWT`
+
+</td>
+<td width="50%" valign="top">
+
+### [Project Lamdag](https://github.com/Lonergun141/Project-Lamdag)
+
+A web platform built front to back, organised so the data flow stays readable as the feature set grows.
+
+`TypeScript` · `React`
+
+</td>
+</tr>
+</table>
+
+## Work I take on
+
+| | |
+|---|---|
+| Internal tools that remove a manual step | Dashboards that answer a question fast |
+| Business systems with one source of truth | APIs meant to be used by other teams |
+| Automating the work nobody wants to repeat | Interfaces that hold up under real data |
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lonergun141&theme=github-dark&hide_border=true&area=true" width="100%" />
-</div>
 
-<!-- 🐍 Contribution snake — requires the snake workflow (see setup notes). -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/lonergun141/lonergun141/output/snake.svg" alt="snake animation" />
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%" alt="" />
 
----
+## Get in touch
 
-## ✨ Fun Stuff
+Open to fullstack and product work. The fastest route is email.
 
-- ⚖️ I enjoy balancing **engineering logic** with **design taste**
-- 🧠 I like making complex systems feel simple for users
-- 🧹 I treat refactoring like cleanup with purpose
-- 🏛️ I genuinely enjoy elegant architecture and beautiful UI in the same project
+<a href="https://clydegevero.is-a.dev/">
+  <img src="https://img.shields.io/badge/See_the_portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0D1117" alt="See the portfolio" />
+</a>
+<a href="mailto:clydegevero14@gmail.com">
+  <img src="https://img.shields.io/badge/Send_an_email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Send an email" />
+</a>
+<a href="https://linkedin.com/in/clydegevero">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=4C8DFF&labelColor=0D1117" alt="Connect on LinkedIn" />
+</a>
 
-> *"Good software should feel obvious to the user and intentional to the developer."*
+<br /><br />
 
----
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/a754eac4-5a8b-4e8f-922b-aff555400790" width="320" alt="Two cats wearing sunglasses" />
 
-## 🤝 Let's Connect
+<br />
 
-<div align="center">
-  <a href="https://clydegevero.is-a.dev/">
-    <img src="https://img.shields.io/badge/Visit_Portfolio-1f2937?style=for-the-badge&logo=vercel&logoColor=ffffff" />
-  </a>
-  <a href="mailto:clydegevero14@gmail.com">
-    <img src="https://img.shields.io/badge/Send_Email-374151?style=for-the-badge&logo=gmail&logoColor=ffffff" />
-  </a>
-  <a href="https://linkedin.com/in/clydegevero">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-334155?style=for-the-badge&logo=linkedin&logoColor=ffffff" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-
-### Thanks for visiting 👨‍💻
-
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Bottom_up.svg" width="100%" />
+<img src="https://komarev.com/ghpvc/?username=lonergun141&label=Profile%20views&color=0D1117&style=flat-square" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/lonergun141?label=Followers&style=flat-square&color=0D1117&labelColor=161B22" alt="Followers" />
 
 </div>

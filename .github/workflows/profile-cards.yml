@@ -1,0 +1,48 @@
+name: Profile cards
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-cards.mjs'
+      - '.github/workflows/profile-cards.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate cards
+        env:
+          # A classic PAT with read:user gives richer numbers; the default token
+          # is enough for public contribution data.
+          GH_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-cards.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "No card changes."
+          else
+            git commit -m "chore: refresh profile cards"
+            git push
+          fi
