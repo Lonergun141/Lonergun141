@@ -113,50 +113,17 @@ const clyde = {
 
 </div>
 
-## Selected work
+## Portfolio
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### [QuickEase](https://github.com/Lonergun141/quickie)
+<a href="https://clydegevero.is-a.dev/">
+  <img src="./assets/portfolio-hero.jpg" width="100%" alt="Opening screen of clydegevero.is-a.dev: the name set in large editorial type beside a portrait, with the line 'I design the interface and build the system behind it'" />
+</a>
 
-Turns a student's uploaded notes into summaries, flashcards and quizzes. Runs on GPT-4o, Google Vision and ConvertAPI.
+<sub><a href="https://clydegevero.is-a.dev/">clydegevero.is-a.dev</a> — selected work, credentials, and how to reach me</sub>
 
-`TypeScript` · `React Native` · `Django`
-
-</td>
-<td width="50%" valign="top">
-
-### [Kinaadman](https://github.com/Lonergun141/Kinaadman-be)
-
-Gives universities one place to archive and publish thesis and capstone research, with each school kept separate.
-
-`Python` · `Django` · `PostgreSQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [SusiAuth](https://github.com/Lonergun141/SusiAuth)
-
-Drop-in Django auth for microservices: RS256 JWT, refresh token rotation, email verification, password reset.
-
-`Python` · `DRF` · `JWT`
-
-</td>
-<td width="50%" valign="top">
-
-### [Project Lamdag](https://github.com/Lonergun141/Project-Lamdag)
-
-A web platform built front to back, organised so the data flow stays readable as the feature set grows.
-
-`TypeScript` · `React`
-
-</td>
-</tr>
-</table>
+</div>
 
 ## Work I take on
 
