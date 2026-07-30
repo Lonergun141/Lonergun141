@@ -42,7 +42,17 @@ jobs:
           git add assets
           if git diff --staged --quiet; then
             echo "No card changes."
-          else
-            git commit -m "chore: refresh profile cards"
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh profile cards"
+          # Anything else landing on main mid-run would otherwise reject the
+          # push, so rebase onto it and retry rather than failing the workflow.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin main
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
