@@ -230,45 +230,86 @@ const grid = (w, h, t, step = 30, opacity = 0.5) => {
 function heroCard(user, theme) {
   const t = THEMES[theme];
   const W = 900;
-  const H = 250;
+  const H = 238;
 
   const weeks = user.contributionsCollection.contributionCalendar.weeks.map((w) =>
     w.contributionDays.reduce((sum, d) => sum + d.contributionCount, 0)
   );
   const peak = Math.max(...weeks, 1);
 
-  const traceX = PAD + 8;
-  const traceW = W - (PAD + 8) * 2;
-  const base = 222;
-  const maxH = 46; // leaves clearance under the label row at y=168
-  const slot = traceW / weeks.length;
-  const barW = Math.max(slot - 2.2, 1.6);
+  const x0 = 30;
+  const span = W - x0 * 2;
 
-  const bars = weeks
+  // The wordmark is justified to the full span with lengthAdjust="spacing", so
+  // it lands edge to edge whatever system font the reader has. Size is kept well
+  // under the target width: tracking then opens up, and a wide font degrades to
+  // ordinary tracking instead of overlapping glyphs.
+  const NAME = 'CLYDE H. GEVERO';
+  const nameSize = 84;
+  const baseline = 162;
+  const capTop = baseline - 60; // cap height at this size
+
+  const wordmark = (extra = '') =>
+    `<text x="${x0}" y="${baseline}" textLength="${span}" lengthAdjust="spacing" font-family="${SANS}" font-size="${nameSize}" font-weight="800" ${extra}>${NAME}</text>`;
+
+  // Each week fills its slice of the letterforms from the baseline up, so the
+  // name reads as a level meter of the year. The dim base keeps every letter
+  // legible where a week was quiet, and the scale stays linear — the name really
+  // does fill toward the right, because the work did.
+  const slot = span / weeks.length;
+  const meter = weeks
     .map((v, i) => {
-      const h = v === 0 ? 1.5 : Math.max((v / peak) * maxH, 2.5);
-      const x = traceX + i * slot;
-      return `<rect x="${x.toFixed(1)}" y="${(base - h).toFixed(1)}" width="${barW.toFixed(1)}" height="${h.toFixed(1)}" rx="1.4" fill="${t.trace}" opacity="${v === 0 ? 0.22 : 1}" />`;
+      if (v === 0) return '';
+      const h = (v / peak) * 60;
+      const x = x0 + i * slot;
+      const y = baseline - h;
+      return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${(slot + 0.5).toFixed(1)}" height="${h.toFixed(1)}" fill="${t.trace}" /><rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${(slot + 0.5).toFixed(1)}" height="1.6" fill="${t.ink}" opacity="0.55" />`;
     })
     .join('');
 
-  // A sweeping highlight was tried here and cut: over sparse bars it reads as a
-  // rendering artifact rather than atmosphere. The trace is the signature; it
-  // does not need help.
+  const zero = baseline + 3;
+  const ticks = [0, 1, 2, 3, 4]
+    .map((i) => {
+      const x = x0 + (span / 4) * i;
+      return `<line x1="${x.toFixed(1)}" y1="${zero}" x2="${x.toFixed(1)}" y2="${zero + 6}" stroke="${t.hair}" stroke-width="1" />`;
+    })
+    .join('');
+
+  const defs = `
+    <linearGradient id="veil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="${t.signal}" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="${t.signal}" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="${t.ink}" stop-opacity="0" />
+      <stop offset="50%" stop-color="${t.ink}" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="${t.ink}" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="wordmark">${wordmark()}</clipPath>`;
+
   const body = `  ${grid(W, H, t, 30, 0.45)}
-  <rect x="${PAD}" y="${PAD}" width="${W - PAD * 2}" height="${H - PAD * 2}" rx="8" fill="${t.panel}" opacity="0.55" />
-  <line x1="${PAD}" y1="${PAD}" x2="${PAD}" y2="${H - PAD}" stroke="${t.signal}" stroke-width="2" />
+  <rect x="0" y="0" width="${W}" height="140" fill="url(#veil)" />
 
-  ${eyebrow(t, traceX, 60, 'Fullstack developer · UI/UX designer')}
-  <text x="${traceX}" y="112" font-family="${SANS}" font-size="52" font-weight="800" letter-spacing="-1.4" fill="${t.ink}">Clyde H. Gevero</text>
-  <text x="${traceX}" y="140" font-family="${MONO}" font-size="12.5" fill="${t.muted}">I design and build web and mobile products — the interface, the API, and the system underneath.</text>
+  ${eyebrow(t, x0, 52, 'Fullstack developer · UI/UX designer')}
+  ${eyebrow(t, x0 + span, 52, 'Contributions per week · last 12 months', 'end')}
 
-  ${eyebrow(t, traceX, 168, 'Contributions per week')}
-  ${eyebrow(t, traceX + traceW, 168, 'Last 12 months', 'end')}
-  ${bars}
-  <line x1="${traceX}" y1="${base + 4}" x2="${traceX + traceW}" y2="${base + 4}" stroke="${t.hair}" stroke-width="1" />`;
+  <g clip-path="url(#wordmark)">
+    <rect x="${x0}" y="${capTop}" width="${span}" height="60" fill="${t.ink}" opacity="${theme === 'dark' ? 0.3 : 0.32}" />
+    ${meter}
+    <rect x="0" y="${capTop}" width="150" height="60" fill="url(#shine)">
+      <animate attributeName="x" from="${x0 - 150}" to="${x0 + span}" dur="7s" repeatCount="indefinite" />
+    </rect>
+  </g>
 
-  return frame(W, H, t, body);
+  <!-- The blue rule is the meter's zero line, not decoration: it sits exactly on
+       the baseline the weekly levels are measured from. -->
+  <line x1="${x0}" y1="${zero}" x2="${x0 + span}" y2="${zero}" stroke="${t.signal}" stroke-width="1.5" opacity="0.6" />
+  ${ticks}
+  <text x="${x0}" y="${zero + 42}" font-family="${MONO}" font-size="12.5" fill="${t.muted}">I design and build web and mobile products — interface, API, and the system underneath.</text>
+  <!-- Says what a full letter means, and balances the description across the grid. -->
+  ${eyebrow(t, x0 + span, zero + 42, `Peak ${peak} in one week`, 'end')}`;
+
+  return frame(W, H, t, body, defs);
 }
 
 /** GitHub's profile "Activity overview" radar, rebuilt from the same numbers. */

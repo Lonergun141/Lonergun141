@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
-  <img src="./assets/hero-dark.svg" width="100%" alt="Clyde H. Gevero — fullstack developer and UI/UX designer, above a chart of contributions per week over the last 12 months" />
+  <img src="./assets/hero-dark.svg" width="100%" alt="Clyde H. Gevero — fullstack developer and UI/UX designer. The name is set as a level meter: each letter fills from the baseline with that week's contributions over the last 12 months, peaking at 154 in one week." />
 </picture>
 
 <div align="center">
