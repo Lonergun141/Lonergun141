@@ -76,16 +76,3 @@ I build web and mobile products end to end — the interface people use, the API
 | Business systems with one source of truth | APIs meant to be used by other teams |
 | Automating the work nobody wants to repeat | Interfaces that hold up under real data |
 
-<div align="center">
-
-
-<br /><br />
-
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/a754eac4-5a8b-4e8f-922b-aff555400790" width="320" alt="Two cats wearing sunglasses" />
-
-<br />
-
-<img src="https://komarev.com/ghpvc/?username=lonergun141&label=Profile%20views&color=0D1117&style=flat-square" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/lonergun141?label=Followers&style=flat-square&color=0D1117&labelColor=161B22" alt="Followers" />
-
-</div>
