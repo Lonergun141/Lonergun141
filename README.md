@@ -68,11 +68,4 @@ I build web and mobile products end to end — the interface people use, the API
 
 </div>
 
-## Work I take on
-
-| | |
-|---|---|
-| Internal tools that remove a manual step | Dashboards that answer a question fast |
-| Business systems with one source of truth | APIs meant to be used by other teams |
-| Automating the work nobody wants to repeat | Interfaces that hold up under real data |
 
