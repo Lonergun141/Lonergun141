@@ -39,14 +39,20 @@ I build web and mobile products end to end — the interface people use, the API
 </tr>
 </table>
 
-```ts
-const clyde = {
-  role:     ["Fullstack developer", "UI/UX designer"],
-  builds:   ["Web and mobile apps", "REST APIs", "Design systems"],
-  worksOn:  ["Architecture", "Automation", "Performance"],
-  believes: "If the interface needs explaining, the system probably does too.",
-};
-```
+
+## Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,html,css,postgres&theme=dark" alt="TypeScript, JavaScript, Python, HTML, CSS, SQL" />
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,redux&theme=dark" alt="React, Next.js, Tailwind, Bootstrap, Redux" />
+
+<img src="https://skillicons.dev/icons?i=django,nodejs,mongodb,redis,firebase&theme=dark" alt="Django, Node.js, MongoDB, Redis, Firebase" />
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,postman,figma&theme=dark" alt="Docker, Git, GitHub, Postman, Figma" />
+
+</div>
 
 
 <details>
