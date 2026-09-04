@@ -78,21 +78,6 @@ I build web and mobile products end to end — the interface people use, the API
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%" alt="" />
-
-## Get in touch
-
-Open to fullstack and product work. The fastest route is email.
-
-<a href="https://clydegevero.is-a.dev/">
-  <img src="https://img.shields.io/badge/See_the_portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF&labelColor=0D1117" alt="See the portfolio" />
-</a>
-<a href="mailto:clydegevero14@gmail.com">
-  <img src="https://img.shields.io/badge/Send_an_email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Send an email" />
-</a>
-<a href="https://linkedin.com/in/clydegevero">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=4C8DFF&labelColor=0D1117" alt="Connect on LinkedIn" />
-</a>
 
 <br /><br />
 
