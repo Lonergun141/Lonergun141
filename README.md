@@ -56,37 +56,6 @@ I build web and mobile products end to end — the interface people use, the API
 
 </details>
 
-## Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-overview-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-overview-light.svg" />
-  <img src="./assets/activity-overview-dark.svg" width="100%" alt="Where the contributions went: 73% commits, 27% pull requests, and the five most active repositories" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
-  <img src="./assets/stats-dark.svg" alt="By the numbers: contributions, pull requests, streaks, and repository counts" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg" />
-  <img src="./assets/languages-dark.svg" alt="Most used languages by share of bytes of code" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Lonergun141/Lonergun141/output/github-snake-dark.svg" width="100%" alt="A snake eating the contribution grid" />
-</picture>
-
-<sub>These cards are drawn from the GitHub API and rebuilt every day — <a href="./scripts/generate-cards.mjs">read the generator</a></sub>
-
-</div>
-
 ## Portfolio
 
 <div align="center">
